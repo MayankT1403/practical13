@@ -1,0 +1,57 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(12, 12, 114);
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+#name{
+    margin-right: 10px;
+}
+#age{
+    margin-right: 10px;
+}
+#grade{
+    margin-right: 10px;
+}
+label{
+    margin-right: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+
+}
+th{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(55, 55, 123);
+    color: whitesmoke;
+    border: 1px solid white;
+}
+td{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(228, 225, 225);
+}
+#btn:hover{
+    background-color: rgb(186, 183, 183);
+}
+#btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#editButton:hover{
+    background-color: rgb(114, 111, 111);
+}
